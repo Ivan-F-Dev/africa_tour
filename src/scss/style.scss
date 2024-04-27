@@ -1,0 +1,68 @@
+@import "_null.scss";
+@import "variables.scss";
+@import "index.scss";
+
+@font-face {
+	font-family: "IgraSans";
+	src: url("../../public/fonts/IgraSans.woff2") format("woff2");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "IgraSans";
+	src: url("../../public/fonts/IgraSans.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../../public/fonts/Montserrat-Regular.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../../public/fonts/Montserrat-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../../public/fonts/Montserrat-Medium.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../../public/fonts/Montserrat-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../../public/fonts/Montserrat-Bold.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../../public/fonts/Montserrat-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "BetinaScript";
+	src: url("../../public/fonts/betinascriptbold.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "BetinaScript";
+	src: url("../../public/fonts/betinascriptbold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+}
