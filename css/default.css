@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "IgraSans"; 
+    src: url("../fonts/IgraSans.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-Thin.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 100; 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 200; 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+*,
+* ::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1;
+}
