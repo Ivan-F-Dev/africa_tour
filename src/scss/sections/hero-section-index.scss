@@ -12,6 +12,68 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
+	&__title {
+		margin-top: 164px;
+		font-size: 220px;
+		color: white;
+	}
+	&__subtitle {
+		width: 800px;
+		text-align: center;
+		margin-top: 20px;
+		font-size: 36px;
+		color: white;
+	}
+	&Btn {
+		margin-top: 44px;
+		width: 400px;
+		height: 100px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		border-radius: 40px;
+		font-weight: 700;
+		font-size: 24px;
+		cursor: pointer;
+
+		background-image: url("../../../public/images/Preview1_Btnbg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto;
+	}
+	&__cloud {
+		position: absolute;
+		top: 561px;
+	}
+	&CloudBtn {
+		top: 603px;
+		position: absolute;
+		transform: translateX(-50px);
+	}
+	&__lang-img {
+		position: absolute;
+		top: 35px;
+		right: 100px;
+		display: flex;
+		gap: 30px;
+	}
+	&Flag {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 7px;
+		cursor: pointer;
+		&.active:after {
+			position: absolute;
+			top: calc(100% + 5px);
+			content: "";
+			width: 100%;
+			height: 2px;
+			background-color: #ffb535;
+		}
+	}
 }
 .Preview1__title {
 	margin-top: 164px;
@@ -25,7 +87,6 @@
 	font-size: 36px;
 	color: white;
 }
-
 .Preview1Btn {
 	margin-top: 44px;
 	width: 400px;
@@ -45,18 +106,15 @@
 	background-position: center;
 	background-size: auto;
 }
-
 .Preview1__cloud {
 	position: absolute;
 	top: 561px;
 }
-
 .Preview1CloudBtn {
 	top: 603px;
 	position: absolute;
 	transform: translateX(-50px);
 }
-
 .hero-section__lang-img {
 	position: absolute;
 	top: 35px;
@@ -64,7 +122,6 @@
 	display: flex;
 	gap: 30px;
 }
-
 .Preview1Flag {
 	position: relative;
 	display: flex;
@@ -80,7 +137,6 @@
 	height: 2px;
 	background-color: #ffb535;
 }
-
 .Preview1Flag h6 {
 }
 .Preview1Flag img {
