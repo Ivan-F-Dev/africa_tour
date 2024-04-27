@@ -1,0 +1,11 @@
+.main {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    .submain {
+        color: blue;
+    }
+    &__2 {
+        background-color: brown;
+    }
+}
