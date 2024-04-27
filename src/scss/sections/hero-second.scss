@@ -1,3 +1,69 @@
 .hero-second {
-
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  &__card {
+    //width: 26%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    div {
+      position: relative;
+      height: 450px;
+      width: 100%;
+      background-position: center;
+      background-size: auto;
+      background-repeat: no-repeat;
+      img {
+        position: absolute;
+      }
+    }
+    &.first {
+      div {
+        z-index: 1;
+        background-image: url("./public/images/heroSecond1.png");
+        img {
+          top: -320px;
+          left: -100px;
+        }
+      }
+    }
+    &.second {
+      div {
+        background-image: url("./public/images/heroSecond2.png");
+        img.f {
+          width: 110%;
+          top: -80px;
+          left: -90px;
+        }
+        img.s {
+          top: -305px;
+          left: -200px;
+        }
+      }
+    }
+    &.third {
+      div {
+        background-image: url("./public/images/heroSecond3.png");
+        img {
+          width: 210%;
+          top: -193px;
+          left: -469px;
+        }
+      }
+    }
+    h3 {
+      width: 50%;
+      font-size: 36px;
+      text-align: center;
+      z-index: 5;
+    }
+    span {
+      text-align: center;
+      z-index: 5;
+    }
+  }
 }
