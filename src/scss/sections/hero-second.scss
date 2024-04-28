@@ -3,13 +3,41 @@
   display: flex;
   justify-content: space-around;
   overflow: hidden;
+  @media (max-width: 1024px) {
+    justify-content: space-between;
+  }
+  @media (max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
   &__card {
-    //width: 26%;
     width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    @media (max-width: 1500px) {
+      width: 400px;
+    }
+    @media (max-width: 1366px) {
+      width: 330px;
+    }
+    @media (max-width: 1024px) {
+      width: 250px;
+    }
+    @media (max-width: 768px) {
+      width: 200px;
+    }
+    @media (max-width: 650px) {
+      width: 500px;
+    }
+    @media (max-width: 500px) {
+      width: 330px;
+    }
+    @media (max-width: 360px) {
+      width: 250px;
+    }
     div {
       position: relative;
       height: 450px;
@@ -17,6 +45,30 @@
       background-position: center;
       background-size: auto;
       background-repeat: no-repeat;
+      @media (max-width: 1500px) {
+        height: 360px;
+      }
+      @media (max-width: 1366px) {
+        height: 300px;
+      }
+      @media (max-width: 1024px) {
+        height: 225px;
+      }
+      @media (max-width: 768px) {
+        height: 180px;
+      }
+      @media (max-width: 650px) {
+        height: 450px;
+      }
+      @media (max-width: 650px) {
+        height: 450px;
+      }
+      @media (max-width: 500px) {
+        height: 300px;
+      }
+      @media (max-width: 360px) {
+        height: 225px;
+      }
       img {
         position: absolute;
       }
@@ -26,8 +78,19 @@
         z-index: 1;
         background-image: url("./public/images/heroSecond1.png");
         img {
-          top: -320px;
-          left: -100px;
+          width: 210%;
+          top: -70%;
+          left: -20%;
+          @media (max-width: 1500px) {
+            width: 220%;
+            top: -77%;
+            left: -20%;
+          }
+          @media (max-width: 650px) {
+            width: 210%;
+            top: -70%;
+            left: -20%;
+          }
         }
       }
     }
@@ -36,12 +99,19 @@
         background-image: url("./public/images/heroSecond2.png");
         img.f {
           width: 110%;
-          top: -80px;
-          left: -90px;
+          top: -17%;
+          left: -19%;
+          @media (max-width: 1500px) {
+
+          }
         }
         img.s {
-          top: -305px;
-          left: -200px;
+          width: 165%;
+          top: -67%;
+          left: -40%;
+          @media (max-width: 1500px) {
+
+          }
         }
       }
     }
@@ -50,8 +120,16 @@
         background-image: url("./public/images/heroSecond3.png");
         img {
           width: 210%;
-          top: -193px;
-          left: -469px;
+          top: -43%;
+          left: -93%;
+          @media (max-width: 1500px) {
+            width: 215%;
+          }
+          @media (max-width: 650px) {
+            width: 210%;
+            top: -43%;
+            left: -93%;
+          }
         }
       }
     }
@@ -60,10 +138,23 @@
       font-size: 36px;
       text-align: center;
       z-index: 5;
+      @media (max-width: 1500px) {
+        width: 80%;
+      }
+      @media (max-width: 1024px) {
+        font-size: 28px;
+      }
+      @media (max-width: 360px) {
+        font-size: 20px;
+      }
     }
     span {
+      font-size: 17px;
       text-align: center;
       z-index: 5;
+      @media (max-width: 360px) {
+        font-size: 15px;
+      }
     }
   }
 }
